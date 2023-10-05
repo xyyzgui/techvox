@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techvox</title>
+    <style>
+        /* Estilos CSS podem ser adicionados aqui */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 10px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        /* Estilos específicos para a página de login de cliente */
+        .login-container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .login-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+        /* Estilos específicos para a página de login de administrador */
+        .admin-login-container {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+        .admin-login-form input {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+        .admin-login-form button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem vindo a TechVox</h1>
+    </header>
+    <nav>
+        <a href="#">Página Inicial</a>
+        <a href="#">Sobre</a>
+        <a href="#">Contato</a>
+        <a href="#">Login de Cliente</a>
+        <a href="#">Login de Administrador</a>
+        <a href="#">Produtos Eletrônicos</a>
+        <a href="#">Meus Pedidos</a>
+    </nav>
+    <div class="container">
+        <h2>Sobre Nós</h2>
+        <p>Somos uma empresa de vendas de eletronicos</p>
+        <p>Contato</p>
+       
+    </div>
+    <!-- Página de login de cliente -->
+    <div class="container login-container">
+        <h2>Login de Cliente</h2>
+        <form class="login-form">
+            <input type="text" placeholder="Nome de Usuário" required>
+            <input type="password" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+    <!-- Página de login de administrador -->
+    <div class="container admin-login-container">
+        <h2>Login de Administrador</h2>
+        <form class="admin-login-form">
+            <input type="text" placeholder="Nome de Usuário" required>
+            <input type="password" placeholder="Senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
+    <!-- Página de produtos eletrônicos -->
+    <div class="container product-container">
+        <h2>Produtos Eletrônicos</h2>
+        <div class="product-item">
+            <div>
+                <h3>Smartphone</h3>
+                <p>Preço: R$ 1.000,00</p>
+            </div>
+            <button>Comprar</button>
+        </div>
+        <div class="product-item">
+            <div>
+                <h3>Tablet</h3>
+                <p>Preço: R$ 500,00</p>
+            </div>
+            <button>Comprar</button>
+        </div>
+        <div class="product-item">
+            <div>
+                <h3>Smart TV</h3>
+                <p>Preço: R$ 1.500,00</p>
+            </div>
+            <button>Comprar</button>
+        </div>
+    </div>
+    <!-- Página de pedidos -->
+    <div class="container order-container">
+        <h2>Meus Pedidos</h2>
+        <div class="order-item">
+            <h3>Pedido #1</h3>
+            <p>Produto: Smartphone</p>
+            <p>Preço Total: R$ 1.000,00</p>
+        </div>
+        <div class="order-item">
+            <h3>Pedido #2</h3>
+            <p>Produto: Tablet</p>
+            <p>Preço Total: R$ 500,00</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; Techvox</p>
+    </footer>
+</body>
+</html>
+
